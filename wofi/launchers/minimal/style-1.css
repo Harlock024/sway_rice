@@ -1,0 +1,36 @@
+* {
+    font-family: "JetBrains Mono Medium", monospace;
+    font-size: 13px;
+}
+
+window {
+    background-color: #000;
+    border: 2px solid #111111;
+}
+
+#outer-box {
+    margin: 0px;
+    padding: 10px;
+}
+
+#input {
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+    caret-color: #ffffff;
+}
+
+#inner-box {
+    background-color: #000;
+}
+
+#entry {
+    padding: 6px;
+    color: #cccccc;
+}
+
+#entry:selected {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}

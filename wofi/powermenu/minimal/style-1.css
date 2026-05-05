@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+window {
+    background-color: #000;
+    border: none;
+    font-family: "JetBrains Mono Medium", sans-serif;
+    color: #252525;
+}
+
+#outer-box {
+    padding: 0;
+    margin: 0;
+}
+
+#inner-box {
+    padding: 0;
+    margin: 0;   /* <- aquí estaba uno de los espacios */
+}
+
+#input {
+    display: none;
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+#entry {
+    padding: 6px 10px;  /* solo espacio interno del botón */
+    border-radius: 0px; /* opcional si lo quieres más sharp */
+}
+
+#entry:selected {
+    background-color: #292929;
+}
+
+#text:selected {
+    color: #f2f2f2;
+}
